@@ -41,34 +41,18 @@ const SignUp = () => {
     setRegisterError('');
     setShowPassword(false)
 
-    createUser(email, password)
+    createUser(email, password, photo)
       .then((userCredential) => {
         console.log(userCredential.user)
-        
-         // new user has been created
-         const createdAt = userCredential.user?.metadata?.creationTime;
-         const user = { email, createdAt: createdAt };
-         fetch('http://localhost:5000/users/user', {
-             method: 'POST',
-             headers: {
-                 'content-type': 'application/json'
-             },
-             body: JSON.stringify(user)
-         })
-             .then(res => res.json())
-             .then(data => {
-                 if(data.insertedId){
-                     console.log('user added to the database')
-                 }
-             })
-        // toast.success("Account Created Successfully");
+    
+        toast.success("Account Created Successfully");
         navigate('/')
-        // updateProfile(userCredential.user, {
-        //   displayName: name,
-        //   photoURL: photo
-        // }).then(() => {
-        //   setUser({ ...user, displayName: name, photoURL: photo})
-        // })
+        updateProfile(userCredential.user, {
+          displayName: name,
+          photoURL: photo
+        }).then(() => {
+          setUser({ ...user, displayName: name, photoURL: photo})
+        })
       })
       .catch((error) => {
         console.error("Error creating user:", error);

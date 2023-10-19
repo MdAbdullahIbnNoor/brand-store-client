@@ -1,10 +1,16 @@
-import React from 'react'
-import { useLoaderData } from 'react-router-dom'
+// import React, { useState } from 'react'
+import { useLoaderData, useParams } from 'react-router-dom'
 import { Link } from 'react-router-dom';
 
 const BrandDetails = () => {
 
+    const {name} = useParams();
     const products = useLoaderData();
+    // const [loadedProduct, setLoadedProducts] = useState([])
+    // console.log(products);
+    
+    const newProducts = products.filter(prod => prod.brand === name);
+    // setLoadedProducts(newProducts);
 
     return (
         <div>
@@ -54,7 +60,7 @@ const BrandDetails = () => {
             <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
                 <div className="grid gap-8 row-gap-5 md:grid-cols-2">
                     {
-                        products.map(product => <div key={product._id} className="flex max-w-md overflow-hidden bg-white rounded-lg shadow-lg">
+                        newProducts.map(product => <div key={product._id} className="flex max-w-md overflow-hidden bg-white rounded-lg shadow-lg">
                             <div className="w-1/3 bg-cover" style={{ backgroundImage: `url(${product.photo})` }}></div>
 
                             <div className="w-2/3 p-4 md:p-4">
@@ -79,7 +85,7 @@ const BrandDetails = () => {
                                     <h1 className="text-lg font-bold text-gray-700 md:text-xl">${product.price}</h1>
                                     <div className='flex'>
                                         <button className="px-2 py-1 text-xs font-bold text-white uppercase transition-colors duration-300 transform bg-gray-800 rounded  hover:bg-gray-700  focus:outline-none focus:bg-gray-700 m-2">Details</button>
-                                        <Link to={`${product._id}`}>
+                                        <Link to={`/updateDetails/${product._id}`}>
                                             <button className="px-2 py-1 text-xs font-bold text-white uppercase transition-colors duration-300 transform bg-gray-800 rounded  hover:bg-gray-700  focus:outline-none focus:bg-gray-700 m-2">Update</button>
                                         </Link>
                                     </div>

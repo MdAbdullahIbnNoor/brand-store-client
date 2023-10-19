@@ -6,6 +6,7 @@ const UpdateDetails = () => {
 
     const product = useLoaderData();
 
+    console.log(product);
     const { _id, photo, name, brand, type, price, rating } = product
 
     const handleUpdateProduct = event => {

@@ -1,0 +1,51 @@
+[
+    {
+      "brand_name": "Asus",
+      "brand_img": "https://images.unsplash.com/photo-1655437448243-08a76744b048?auto=format&fit=crop&q=80&w=2062&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ad_img1": "https://images.unsplash.com/photo-1630794180018-433d915c34ac?auto=format&fit=crop&q=80&w=1932&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ad_img2": "https://images.unsplash.com/photo-1590653956132-7124afce5a9d?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ad_img3": "https://images.unsplash.com/photo-1587134160474-cd3c9a60a34a?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "short_description": "Asus is a multinational computer hardware and electronics company known for its laptops, motherboards, graphics cards, and more."
+    },
+    {
+      "brand_name": "Sony",
+      "brand_img": "https://images.unsplash.com/photo-1662948261149-3f0a0ab0181b?auto=format&fit=crop&q=80&w=2128&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ad_img1": "https://images.unsplash.com/photo-1617468264204-92588bd6485a?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ad_img2": "https://images.unsplash.com/photo-1621208587196-0b2a7d2aeb03?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ad_img3": "https://images.unsplash.com/photo-1591196702597-062a87208fed?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "short_description": "Sony Corporation is a leading manufacturer of consumer and professional electronics, gaming, entertainment, and more."
+    },
+    {
+      "brand_name": "Google",
+      "brand_img": "https://images.unsplash.com/photo-1529612700005-e35377bf1415?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ad_img1": "https://images.unsplash.com/photo-1551808525-51a94da548ce?auto=format&fit=crop&q=80&w=2007&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ad_img2": "https://images.unsplash.com/photo-1592096304832-62463bfdc822?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ad_img3": "https://images.unsplash.com/photo-1548345680-f5475ea5df84?auto=format&fit=crop&q=80&w=2073&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "short_description": "Google is a multinational technology company specializing in internet-related services, search engines, and software."
+    },
+    {
+      "brand_name": "Apple",
+      "brand_img": "https://images.unsplash.com/photo-1585184394271-4c0a47dc59c9?auto=format&fit=crop&q=80&w=2071&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ad_img1": "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?auto=format&fit=crop&q=80&w=2129&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ad_img2": "https://images.unsplash.com/photo-1580974928064-f0aeef70895a?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ad_img3": "https://images.unsplash.com/photo-1609692814867-d668c4487979?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "short_description": "Apple Inc. is renowned for its consumer electronics, software, and services, including the iPhone, Mac, and iOS operating systems."
+    },
+    {
+      "brand_name": "Samsung",
+      "brand_img": "https://images.unsplash.com/photo-1653389526309-f8e2e75f8aaf?auto=format&fit=crop&q=80&w=2062&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ad_img1": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ad_img2": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=2071&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ad_img3": "https://images.unsplash.com/photo-1620288650879-20db0eb38c05?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "short_description": "Samsung Electronics is a leading manufacturer of consumer electronics, mobile devices, and home appliances."
+    },
+    {
+      "brand_name": "Xiaomi",
+      "brand_img": "https://images.unsplash.com/photo-1662948100051-4d7b66b87c0a?auto=format&fit=crop&q=80&w=2128&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ad_img1": "https://images.unsplash.com/photo-1624434207357-34e782936956?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ad_img2": "https://images.unsplash.com/photo-1576420470060-86083fd824e0?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ad_img3": "https://images.unsplash.com/photo-1576243345690-4e4b79b63288?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "short_description": "Xiaomi Corporation is a Chinese electronics company specializing in smartphones, mobile apps, and other consumer electronics."
+    }
+  ]
+  

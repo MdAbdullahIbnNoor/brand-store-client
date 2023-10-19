@@ -42,14 +42,14 @@ const router = createBrowserRouter([
         element: <AddProductPage></AddProductPage>
       },
       {
-        path: "/brandDetails",
+        path: "/brandDetails/:name",
         element: <BrandDetails></BrandDetails>,
-        loader: () => fetch("http://localhost:5000/products")
+        loader: ({ params }) => fetch(`http://localhost:5000/products`)
       },
       {
-        path: "/brandDetails/:id",
+        path: "/updateDetails/:id",
         element: <UpdateDetails></UpdateDetails>,
-        loader: ({params}) =>fetch(`http://localhost:5000/products/${params.id}`)
+        loader: ({ params }) => fetch(`http://localhost:5000/products/${params.id}`)
       }
     ]
   }
