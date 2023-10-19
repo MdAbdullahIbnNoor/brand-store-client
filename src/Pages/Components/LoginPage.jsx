@@ -1,46 +1,47 @@
-// import { useContext } from "react";
-// import { Link, useNavigate } from "react-router-dom"
-// import { AuthContext } from "../Providers/AuthProvider";
-// import { ToastContainer, toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
+import { useContext } from "react";
+import { Link, useNavigate } from "react-router-dom"
+import { AuthContext } from "../../providers/AuthProvider";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function LoginPage() {
 
-    // const { signInUser, signUpWithGoogle } = useContext(AuthContext);
-    // const naviGate = useNavigate();
+    const { signInUser, signUpWithGoogle } = useContext(AuthContext);
+    const naviGate = useNavigate();
+    // console.log(signInUser);
 
-    // const handleLogin = e => {
-    //     e.preventDefault();
-    //     console.log("clicked");
-    //     const email = e.target.email.value;
-    //     const password = e.target.password.value;
-    //     console.log(email, password);
+    const handleLogin = e => {
+        e.preventDefault();
+        console.log("clicked");
+        const email = e.target.email.value;
+        const password = e.target.password.value;
+        console.log(email, password);
 
-    //     signInUser(email, password)
-    //         .then(res => {
-    //             console.log(res.user)
-    //             e.target.reset()
-    //             toast.success("Login Successful");
-    //             naviGate("/")
+        signInUser(email, password)
+            .then(res => {
+                console.log(res.user)
+                e.target.reset()
+                toast.success("Login Successful");
+                naviGate("/")
 
-    //         }).catch(error => {
-    //             console.log(error.message);
-    //             toast.error("Invalid Email or Password")
-    //         })
+            }).catch(error => {
+                console.log(error.message);
+                toast.error("Invalid Email or Password")
+            })
 
-    // }
+    }
 
-    // const handleGoogleSignUp = () => {
-    //     signUpWithGoogle()
-    //         .then(res => {
-    //             console.log(res.user)
-    //             toast.success("Login Successful");
-    //             naviGate("/")
-    //         })
-    //         .catch(error => {
-    //             console.log(error.message);
-    //         })
-    // }
+    const handleGoogleSignUp = () => {
+        signUpWithGoogle()
+            .then(res => {
+                console.log(res.user)
+                toast.success("Login Successful");
+                naviGate("/")
+            })
+            .catch(error => {
+                console.log(error.message);
+            })
+    }
 
     return (
         <div className="flex w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 lg:max-w-6xl my-24">
@@ -65,7 +66,7 @@ function LoginPage() {
                         </svg>
                     </div>
 
-                    <span className="w-5/6 px-4 py-3 font-bold text-center">Sign in with Google</span>
+                    <span onClick={() => handleGoogleSignUp()} className="w-5/6 px-4 py-3 font-bold text-center">Sign in with Google</span>
                 </a>
 
                 <div className="flex items-center justify-between mt-4">
@@ -101,12 +102,12 @@ function LoginPage() {
                 <div className="flex items-center justify-between mt-4">
                     <span className="w-1/5 border-b dark:border-gray-600 md:w-1/4"></span>
 
-                    <Link className="text-xs text-gray-500 uppercase dark:text-gray-400 hover:underline">or sign up</Link>
+                    <Link to="/signup" className="text-xs text-gray-500 uppercase dark:text-gray-400 hover:underline">or sign up</Link>
 
                     <span className="w-1/5 border-b dark:border-gray-600 md:w-1/4"></span>
                 </div>
             </div>
-            {/* <ToastContainer /> */}
+            <ToastContainer />
         </div>
     )
 }

@@ -62,27 +62,17 @@ const BrandDetails = () => {
                                 <p className="mt-2 text-base font-medium text-gray-600 text-left">{product.brand}</p>
                                 <p className="mt-2 text-base font-medium text-gray-600 text-left">{product.type}</p>
 
-                                <div className="flex mt-2 item-center">
-                                    <span>Rating: {product.rating}</span>
-                                    <svg className="w-5 h-5 text-amber-500 fill-current" viewBox="0 0 24 24">
-                                        <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z" />
-                                    </svg>
-
-                                    {/* <svg className="w-5 h-5 text-amber-500 fill-current" viewBox="0 0 24 24">
+                                <div className="flex mt-2 items-center">
+                                    <span></span>
+                                    {Array.from({ length: parseInt(product.rating, 10) }, (_, index) => (
+                                        <svg
+                                            key={index}
+                                            className="w-5 h-5 text-amber-500 fill-current"
+                                            viewBox="0 0 24 24"
+                                        >
                                             <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z" />
                                         </svg>
-
-                                        <svg className="w-5 h-5 text-amber-500 fill-current" viewBox="0 0 24 24">
-                                            <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z" />
-                                        </svg>
-
-                                        <svg className="w-5 h-5 text-amber-500 fill-current" viewBox="0 0 24 24">
-                                            <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z" />
-                                        </svg>
-
-                                        <svg className="w-5 h-5 text-amber-500 fill-current" viewBox="0 0 24 24">
-                                            <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z" />
-                                        </svg> */}
+                                    ))}
                                 </div>
 
                                 <div className="flex justify-between mt-3 item-center">
