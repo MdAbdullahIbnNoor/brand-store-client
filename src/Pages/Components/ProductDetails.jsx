@@ -1,34 +1,54 @@
 import { AuthContext } from "../../providers/AuthProvider";
 import { useLoaderData } from "react-router-dom";
 import { useContext } from "react";
+import Swal from 'sweetalert2';
 
 const ProductDetails = () => {
 
     const product = useLoaderData();
 
-    const { user, signOutUser } = useContext(AuthContext);
+    const { user } = useContext(AuthContext);
 
-    console.log(product);
+    // console.log(email);
+
+    // console.log(product);
     const { photo, name, brand, type, price, rating, shortDescription } = product
 
-     const handleMyCart = () => {
-        console.log("user", user.email);
-     }
-    //     event.preventDefault();
-    //     const form = event.target;
+    // Create a new object combining user.email and product details
+    const newProduct = {
+        user: user,
+        photo,
+        name,
+        brand,
+        type,
+        price,
+        rating,
+        shortDescription,
+    };
 
-    //     const photo = form.image.value;
-    //     const name = form.name.value;
-    //     const brand = form.brand.value;
-    //     const type = form.type.value;
-    //     const price = form.price.value;
-    //     const rating = form.rating.value;
+    const handleMyCart = () => {
+        // console.log("user", user.email);
 
-    //     const updatedProduct = { name, brand, type, price, rating, photo };
-
-    //     console.log(updatedProduct);
-
-    // }
+        fetch('http://localhost:5000/cartProducts', {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(newProduct)
+        })
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+                if (data.insertedId) {
+                    Swal.fire({
+                        title: 'Success!',
+                        text: 'Product Added To Cart Successfully',
+                        icon: 'success',
+                        confirmButtonText: 'Cool'
+                    })
+                }
+            })
+    }
     return (
         <div className="bg-gray-100 dark:bg-gray-800 py-8">
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">

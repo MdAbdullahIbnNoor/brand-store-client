@@ -14,7 +14,6 @@ const Navbar = () => {
     };
 
     const { user, signOutUser } = useContext(AuthContext);
-    // console.log(user?.photoURL);
 
     const handleSignOut = () => {
         signOutUser()
@@ -90,10 +89,10 @@ const Navbar = () => {
 
                             <NavLink
                                 exact
-                                to="/brandDetails"
+                                to={`/myCart`}
                                 className={`px-3 py-2 mx-3 mt-2 rounded-md lg:mt-0 font-semibold ${isTabActive("/brandDetails") ? "text-white bg-[#0ABF68]" : "text-gray-600"}`}
                             >
-                                Products
+                                My Cart
                             </NavLink>
                         </div>
 

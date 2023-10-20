@@ -14,6 +14,7 @@ const AuthProvider = ({ children }) => {
     const [loader, setLoader] = useState(true);
     const googleProvider = new GoogleAuthProvider();
 
+
     const createUser = (email, password) => {
         setLoader(true)
         return createUserWithEmailAndPassword(auth, email, password)

@@ -10,7 +10,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 // import image from "../assets/image2.png"
-// import { updateProfile } from 'firebase/auth';
+import { updateProfile } from 'firebase/auth';
 
 const SignUp = () => {
   const [registerError, setRegisterError] = useState('');
@@ -41,7 +41,7 @@ const SignUp = () => {
     setRegisterError('');
     setShowPassword(false)
 
-    createUser(email, password, photo)
+    createUser(email, password)
       .then((userCredential) => {
         console.log(userCredential.user)
     
