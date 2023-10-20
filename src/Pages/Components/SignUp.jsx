@@ -8,8 +8,6 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
-
-// import image from "../assets/image2.png"
 import { updateProfile } from 'firebase/auth';
 
 const SignUp = () => {
@@ -32,7 +30,6 @@ const SignUp = () => {
     console.log(isValidPassword);
 
     if (!isValidPassword) {
-      // console.log(isValidPassword);
       setRegisterError("Please include a valid password");
       toast.error("Please include a valid password");
       return;
@@ -143,7 +140,7 @@ const SignUp = () => {
           
         </div>
         <div>
-          <img className='mx-auto w-3/5 lg:w-full mb-8 lg:mb-0 ' src={image} alt="" />
+          <img className='mx-auto w-3/5 lg:w-full mb-8 lg:mb-0' src={image} alt="" />
         </div>
       </div>
       <ToastContainer />
