@@ -71,13 +71,13 @@ const Navbar = () => {
                                 LogIn
                             </NavLink>
 
-                            <NavLink
+                            {/* <NavLink
                                 exact
                                 to="/signup"
                                 className={`px-3 py-2 mx-3 mt-2 rounded-md lg:mt-0 font-semibold ${isTabActive("/signup") ? "text-white bg-[#0ABF68]" : "text-gray-600"}`}
                             >
                                 SignUp
-                            </NavLink>
+                            </NavLink> */}
 
                             <NavLink
                                 exact
