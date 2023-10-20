@@ -12,7 +12,7 @@ import LoginPage from './Pages/Components/LoginPage';
 import SignUp from './Pages/Components/SignUp';
 import AddProductPage from './Pages/Components/AddProductPage.jsx';
 import BrandDetails from './Pages/Components/BrandDetails';
-// import ProductDetails from './Pages/Components/ProductDetails';
+import ProductDetails from './Pages/Components/ProductDetails';
 import UpdateDetails from './Pages/Components/UpdateDetails';
 import AuthProvider from './providers/AuthProvider';
 
@@ -40,6 +40,11 @@ const router = createBrowserRouter([
       {
         path: "/addProduct",
         element: <AddProductPage></AddProductPage>
+      },
+      {
+        path: "/productDetails/:id",
+        element: <ProductDetails></ProductDetails>,
+        loader: ({ params }) => fetch(`http://localhost:5000/products/${params.id}`)
       },
       {
         path: "/brandDetails/:name",

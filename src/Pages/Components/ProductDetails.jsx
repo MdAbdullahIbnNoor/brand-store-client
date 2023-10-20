@@ -1,56 +1,87 @@
-import React from 'react'
+import { AuthContext } from "../../providers/AuthProvider";
+import { useLoaderData } from "react-router-dom";
+import { useContext } from "react";
 
 const ProductDetails = () => {
+
+    const product = useLoaderData();
+
+    const { user, signOutUser } = useContext(AuthContext);
+
+    console.log(product);
+    const { photo, name, brand, type, price, rating, shortDescription } = product
+
+     const handleMyCart = () => {
+        console.log("user", user.email);
+     }
+    //     event.preventDefault();
+    //     const form = event.target;
+
+    //     const photo = form.image.value;
+    //     const name = form.name.value;
+    //     const brand = form.brand.value;
+    //     const type = form.type.value;
+    //     const price = form.price.value;
+    //     const rating = form.rating.value;
+
+    //     const updatedProduct = { name, brand, type, price, rating, photo };
+
+    //     console.log(updatedProduct);
+
+    // }
     return (
-        <div>
-            <section className="bg-white dark:bg-gray-900">
-                <div className="container px-6 py-10 mx-auto">
-                    <div className="lg:-mx-6 lg:flex lg:items-center">
-                        <img
-                            className="object-cover object-center lg:w-1/2 lg:mx-6 w-full h-96 rounded-lg lg:h-[36rem]"
-                            src="https://images.unsplash.com/photo-1499470932971-a90681ce8530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                            alt=""
-                        />
+        <div className="bg-gray-100 dark:bg-gray-800 py-8">
+            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="flex flex-col md:flex-row -mx-4">
+                    <div className="md:flex-1 px-4">
+                        <div className="h-[460px] rounded-lg bg-gray-300 dark:bg-gray-700 mb-4">
+                            <img className="w-full h-full object-cover" src={photo} alt="Product Image" />
+                        </div>
 
-                        <div className="mt-8 lg:w-1/2 lg:px-6 lg:mt-0">
-                            <p className="text-5xl font-semibold text-blue-500">“</p>
-
-                            <h1 className="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl lg:w-96">
-                                Help us improve our productivity
-                            </h1>
-
-                            <p className="max-w-lg mt-6 text-gray-500 dark:text-gray-400">
-                                “ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
-                                tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
-                                aperiam dolorum, obcaecati corrupti aspernatur a. ”
+                    </div>
+                    <div className="md:flex-1 px-4">
+                        <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-2">{name}</h2>
+                        <p className="text-gray-600 dark:text-gray-300 text-sm mb-4">
+                            {brand}
+                        </p>
+                        <div className="flex mb-4">
+                            <div className="mr-4">
+                                <span className="font-bold text-gray-700 dark:text-gray-300">Price:</span>
+                                <span className="text-gray-600 dark:text-gray-300 ml-2 uppercase text-lg font-medium">${price}</span>
+                            </div>
+                            <div>
+                                <span className="font-bold text-gray-700 dark:text-gray-300">Type:</span>
+                                <span className="text-gray-600 dark:text-gray-300 ml-2 uppercase text-lg">{type}</span>
+                            </div>
+                        </div>
+                        <div className="mb-4">
+                            <div className="flex mt-2 items-center">
+                                <span className="text-white text-lg mr-3">Rating: </span>
+                                {Array.from({ length: parseInt(rating, 10) }, (_, index) => (
+                                    <svg
+                                        key={index}
+                                        className="w-6 h-6 text-amber-500 fill-current"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path d="M12 17.27L18.18 21L16.54 13.97L22 9.24L14.81 8.63L12 2L9.19 8.63L2 9.24L7.46 13.97L5.82 21L12 17.27Z" />
+                                    </svg>
+                                ))}
+                            </div>F
+                        </div>
+                        <div>
+                            <span className="font-bold text-gray-700 dark:text-gray-300">Product Description:</span>
+                            <p className="text-gray-600 dark:text-gray-300 text-sm mt-2 mb-36">
+                                {shortDescription}
                             </p>
-
-                            <h3 className="mt-6 text-lg font-medium text-blue-500">Mia Brown</h3>
-                            <p className="text-gray-600 dark:text-gray-300">Marketing Manager at Stech</p>
-
-                            <div className="flex items-center justify-between mt-12 lg:justify-start">
-                                <button
-                                    title="left arrow"
-                                    className="p-2 text-gray-800 transition-colors duration-300 border rounded-full rtl:-scale-x-100 dark:border-gray-700 dark:text-gray-200 dark:hover:bg-gray-800 hover:bg-gray-100"
-                                >
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
-                                    </svg>
-                                </button>
-
-                                <button
-                                    title="right arrow"
-                                    className="p-2 text-gray-800 transition-colors duration-300 border rounded-full rtl:-scale-x-100 dark:border-gray-700 dark:text-gray-200 dark:hover:bg-gray-800 lg:mx-6 hover-bg-gray-100"
-                                >
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-                                    </svg>
-                                </button>
+                        </div>
+                        <div className="flex -mx-2 items-end">
+                            <div className="w-full">
+                                <button onClick={() => handleMyCart()} className="w-full bg-gray-900 dark:bg-gray-600 text-white py-2 px-4 rounded-full font-bold hover:bg-gray-800 dark:hover-bg-gray-700">Add to Cart</button>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
     )
 }
