@@ -57,7 +57,7 @@ const SignUp = () => {
   }
 
   return (
-    <div className=' lg:mb-[200px] lg:mt-24 max-h-64'>
+    <div className=' lg:mb-[200px] lg:mt-4 lg:min-h-[400px] lg:my-14 my-8'>
       <h2 className='text-3xl lg:text-5xl font-bold text-center mb-24 text-gray-700'>Please <span className='text-[#0ABF68]'>Register</span></h2>
       <div className='flex flex-col-reverse lg:flex-row items-center max-w-screen-2xl justify-around mx-auto'>
         <div className="flex flex-col w-96 lg:w-1/3 px-4 py-8 bg-white rounded-lg shadow dark:bg-gray-800">

@@ -42,7 +42,7 @@ const BrandDetails = () => {
 
     return (
         <div>
-            <div className="carousel max-w-screen-xl mx-36 h-[450px]">
+            <div className="carousel max-w-screen-2xl mx-36 h-[450px]">
                 <div id="slide1" className="carousel-item relative w-full">
                     <img src={brandName.ad_img1} className="w-full object-cover" />
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

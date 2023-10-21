@@ -24,9 +24,9 @@ const Brands = () => {
     }, []);
 
     return (
-        <div className='max-w-screen-2xl mx-auto'>
-            <h1>Brand: {brands.length}</h1>
-            <div className='grid grid-cols-3 gap-14 mx-36'>
+        <div className='max-w-screen-2xl mx-auto lg:my-24 my-8'>
+            <h2 className='text-center font-bold text-3xl mb-12'>We offer you following Brands to choose from</h2>
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-14 lg:mx-36 mx-12'>
                 {
                     brands.map((brand) => (
                         <Link to={`/brandDetails/${brand.brand_name}`}>

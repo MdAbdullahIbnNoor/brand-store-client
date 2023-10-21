@@ -43,7 +43,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/productDetails/:id",
-        element: <ProductDetails></ProductDetails>,
+        element: <PrivateRoute><ProductDetails></ProductDetails></PrivateRoute>,
         loader: ({ params }) => fetch(`https://brand-store-server-rouge.vercel.app/products/${params.id}`)
       },
       {

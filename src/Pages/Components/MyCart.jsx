@@ -29,7 +29,7 @@ const MyCart = () => {
                         if (data.deletedCount > 0) {
                             Swal.fire(
                                 'Deleted!',
-                                'Your Coffee has been deleted.',
+                                'Your Product has been deleted.',
                                 'success'
                             )
                             const remaining = myProducts.filter(cof => cof._id !== _id);
@@ -40,13 +40,13 @@ const MyCart = () => {
             }
         })
     }
-    
+
     // Calculate the total price
     // const totalPrice = cartProducts.reduce((total, product) => total + parseInt(product.price), 0);
 
-    return (    
+    return (
         <div>
-            <div className="max-w-md mx-auto mt-16 bg-white rounded-lg overflow-hidden md:max-w-lg border border-gray-400">
+            <div className="lg:max-w-lg max-w-md mx-auto my-16 bg-white rounded-lg overflow-hidden md:max-w-lg border border-gray-400">
                 <div className="px-4 py-2 border-b border-gray-200">
                     <h2 className="font-semibold text-gray-800">Shopping Cart</h2>
                 </div>
