@@ -17,7 +17,7 @@ const SignUp = () => {
 
   const navigate = useNavigate(null)
 
-  const { createUser, setUser, user } = useContext(AuthContext)
+  const { createUser, user } = useContext(AuthContext)
 
   const handleRegister = e => {
     e.preventDefault()
@@ -47,9 +47,7 @@ const SignUp = () => {
         updateProfile(userCredential.user, {
           displayName: name,
           photoURL: photo
-        }).then(() => {
-          setUser({ ...user, displayName: name, photoURL: photo})
-        })
+        }).then(() => {({ ...user, displayName: name, photoURL: photo})})
       })
       .catch((error) => {
         console.error("Error creating user:", error);

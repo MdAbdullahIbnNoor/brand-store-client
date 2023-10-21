@@ -18,7 +18,7 @@ const AddProductPage = () => {
 
     console.log(newProduct);
 
-    fetch('http://localhost:5000/products', {
+    fetch('https://brand-store-server-rouge.vercel.app/products', {
       method: 'POST',
       headers: {
         'content-type': 'application/json'

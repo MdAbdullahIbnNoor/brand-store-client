@@ -1,35 +1,19 @@
-import { AuthContext } from "../../providers/AuthProvider";
+
 import { useLoaderData } from "react-router-dom";
-import { useContext } from "react";
 import Swal from 'sweetalert2';
 
 const ProductDetails = () => {
 
     const product = useLoaderData();
 
-    const { user } = useContext(AuthContext);
-
-    // console.log(email);
-
-    // console.log(product);
     const { photo, name, brand, type, price, rating, shortDescription } = product
 
     // Create a new object combining user.email and product details
-    const newProduct = {
-        user: user,
-        photo,
-        name,
-        brand,
-        type,
-        price,
-        rating,
-        shortDescription,
-    };
+    const newProduct = product
 
     const handleMyCart = () => {
-        // console.log("user", user.email);
 
-        fetch('http://localhost:5000/cartProducts', {
+        fetch('https://brand-store-server-rouge.vercel.app/cartProducts', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

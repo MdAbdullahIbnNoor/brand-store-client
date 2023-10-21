@@ -20,7 +20,7 @@ const MyCart = () => {
             if (result.isConfirmed) {
 
 
-                fetch(`http://localhost:5000/cartProducts/${_id}`, {
+                fetch(`https://brand-store-server-rouge.vercel.app/cartProducts/${_id}`, {
                     method: 'DELETE'
                 })
                     .then(res => res.json())
@@ -33,7 +33,7 @@ const MyCart = () => {
                                 'success'
                             )
                             const remaining = myProducts.filter(cof => cof._id !== _id);
-                            setCoffees(remaining);
+                            setMyProducts(remaining);
                         }
                     })
 
@@ -42,7 +42,7 @@ const MyCart = () => {
     }
     
     // Calculate the total price
-    const totalPrice = cartProducts.reduce((total, product) => total + parseInt(product.price), 0);
+    // const totalPrice = cartProducts.reduce((total, product) => total + parseInt(product.price), 0);
 
     return (    
         <div>
@@ -69,7 +69,7 @@ const MyCart = () => {
                     ))}
                 </div>
                 <div className="flex items-center justify-between px-6 py-3 bg-gray-100">
-                    <h3 className="text-gray-900 font-semibold">Total: ${totalPrice.toFixed(2)}</h3>
+                    <h3 className="text-gray-900 font-semibold">Total: $</h3>
                     <button className="py-2 px-4 bg-blue-500 hover-bg-blue-600 text-white rounded-lg">
                         Checkout
                     </button>

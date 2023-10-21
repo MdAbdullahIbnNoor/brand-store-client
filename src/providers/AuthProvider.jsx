@@ -44,7 +44,6 @@ const AuthProvider = ({ children }) => {
         signInUser, 
         signOutUser ,
         signUpWithGoogle,
-        setUser
     }
 
     useEffect(() => {
