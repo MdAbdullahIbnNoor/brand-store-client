@@ -6,28 +6,31 @@ import {
 } from "react-router-dom";
 import './index.css'
 import Root from './Pages/layout/Root';
-import ErrorPage from './Pages/Components/ErrorPage';
 import Home from './Pages/layout/Home';
-import LoginPage from './Pages/Components/LoginPage';
-import SignUp from './Pages/Components/SignUp';
-import AddProductPage from './Pages/Components/AddProductPage.jsx';
-import BrandDetails from './Pages/Components/BrandDetails';
-import ProductDetails from './Pages/Components/ProductDetails';
-import UpdateDetails from './Pages/Components/UpdateDetails';
-import AuthProvider from './providers/AuthProvider';
-import MyCart from './Pages/Components/myCart';
 import PrivateRoute from './Pages/Routes/PrivateRoutes';
+import ErrorPage from './Pages/ErrorPage.jsx';
+import LoginPage from './Pages/LoginPage.jsx';
+import SignUp from './Pages/SignUp.jsx';
+import AddProductPage from './Pages/AddProductPage.jsx.jsx';
+import ProductDetails from './Pages/ProductDetails.jsx';
+import MyCart from './Components/Shared/MyCart.jsx';
+import BrandDetails from './Pages/BrandDetails.jsx';
+import UpdateDetails from './Pages/UpdateDetails.jsx';
+import AuthProvider from './providers/AuthProvider.jsx';
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+
+const queryClient = new QueryClient();
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
-    errorElement: <ErrorPage></ErrorPage>,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
-        element: <Home></Home>
+        element: <Home />
       },
       {
         path: "/login",
@@ -43,23 +46,22 @@ const router = createBrowserRouter([
       },
       {
         path: "/productDetails/:id",
-        element: <PrivateRoute><ProductDetails></ProductDetails></PrivateRoute>,
-        loader: ({ params }) => fetch(`https://brand-store-server-rouge.vercel.app/products/${params.id}`)
+        element: <PrivateRoute><ProductDetails></ProductDetails></PrivateRoute>
       },
       {
         path: "/myCart",
         element: <PrivateRoute><MyCart></MyCart></PrivateRoute>,
-        loader: () => fetch("https://brand-store-server-rouge.vercel.app/cartProducts")
+        loader: () => fetch("http://localhost:3000/cartProducts")
       },
       {
         path: "/brandDetails/:brand",
         element: <BrandDetails></BrandDetails>,
-        loader: ({ params }) => fetch(`https://brand-store-server-rouge.vercel.app/brand/${params?.brand}`)
+        loader: ({ params }) => fetch(`http://localhost:3000/brand/${params?.brand}`)
       },
       {
         path: "/updateDetails/:id",
         element: <UpdateDetails></UpdateDetails>,
-        loader: ({ params }) => fetch(`https://brand-store-server-rouge.vercel.app/products/${params.id}`)
+        loader: ({ params }) => fetch(`http://localhost:3000/products/${params.id}`)
       }
     ]
   }
@@ -67,8 +69,10 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <AuthProvider>
-      <RouterProvider router={router} />
-    </AuthProvider>
+    <QueryClientProvider client={queryClient}>
+      <AuthProvider>
+        <RouterProvider router={router} />
+      </AuthProvider>
+    </QueryClientProvider>
   </React.StrictMode>,
 )

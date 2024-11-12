@@ -63,4 +63,4 @@ Have fun exploring the Electronic Device Store and happy shopping!
 
 **Client-Side:** [Electronic Device Store Client](https://brand-store-97be7.web.app/)
 
-**Server-Side:** [Electronic Device Store Server](https://brand-store-server-rouge.vercel.app/)
+**Server-Side:** [Electronic Device Store Server](http://localhost:3000/)

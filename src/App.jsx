@@ -8,8 +8,6 @@ function App() {
   return (
     <>
      
-      <h1 className='text-7xl text-center'>Products: {products.length}</h1>
-      
     </>
   )
 }

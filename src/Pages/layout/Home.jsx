@@ -1,12 +1,14 @@
-import AboutUs from "../Components/AboutUs"
-import Banner from "../Components/Banner"
-import Brands from "../Components/Brands"
-import Sponsor from "../Components/Sponsor"
+import AboutUs from "../../Components/Home/AboutUs"
+import Banner from "../../Components/Home/Banner"
+import Brands from "../../Components/Home/Brands"
+import FeatureSection from "../../Components/Home/FeatureSection"
+import Sponsor from "../../Components/Sponsor"
 
 const Home = () => {
   return (
     <div>
       <Banner></Banner>
+      <FeatureSection/>
       <Brands></Brands>
       <AboutUs></AboutUs>
       <Sponsor></Sponsor>
