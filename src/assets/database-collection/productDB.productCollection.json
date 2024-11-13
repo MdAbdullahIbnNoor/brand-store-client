@@ -1,1098 +1,1099 @@
-[
-  {
-    "name": "Samsung Galaxy S24",
-    "brand": "Samsung",
-    "category": "smartphone",
-    "price": 85000,
-    "shortDescription": "A sleek and powerful smartphone for everyday use.",
-    "fullDescription": "Detailed description of the smartphone, its performance, design, etc.",
-    "rating": 4.7,
-    "photo": "https://ibb.co.com/tcggP1X",
-    "images": [
-      "https://ibb.co.com/VCHyBpz",
-      "https://ibb.co.com/tL8MQxp"
-    ],
-    "specifications": {
-      "processor": "Exynos 1480",
-      "ram": "8GB",
-      "storage": "256GB",
-      "batteryLife": "18 hours"
-    },
-    "stock": 20,
-    "discount": 15,
-    "colors": [
-      "black",
-      "white"
-    ],
-    "warranty": "2 years",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "someUserId",
-        "rating": 5,
-        "comment": "Great product, works perfectly!",
-        "reviewDate": {
-          "$date": "2024-11-10T12:00:00Z"
-        }
-      }
-    ]
+[{
+  "name": "Samsung Galaxy S24",
+  "brand": "Samsung",
+  "category": "smartphone",
+  "price": 85000,
+  "shortDescription": "A sleek and powerful smartphone for everyday use.",
+  "fullDescription": "Detailed description of the smartphone, its performance, design, etc.",
+  "rating": 4.7,
+  "photo": "https://i.ibb.co.com/2PxxYpN/Samsung-Galaxy-S14-2.jpg",
+  "images": [
+    "https://i.ibb.co.com/XYSZj3x/Samsung-Galaxy-S14-1.jpg",
+    "https://i.ibb.co.com/jwVK4ZQ/Samsung-Galaxy-S14-0.jpg"
+  ],
+  "specifications": {
+    "processor": "Exynos 1480",
+    "ram": "8GB",
+    "storage": "256GB",
+    "batteryLife": "18 hours"
   },
-  {
-    "name": "iPhone 15 Pro Max",
-    "brand": "Apple",
-    "category": "smartphone",
-    "price": 150000,
-    "shortDescription": "A high-end smartphone with advanced features.",
-    "fullDescription": "Detailed description of the smartphone, its performance, design, etc.",
-    "rating": 4.8,
-    "photo": "https://ibb.co.com/R7KRHV2",
-    "images": [
-      "https://ibb.co.com/Qnq0Rh6",
-      "https://ibb.co.com/7Qts0jt"
-    ],
-    "specifications": {
-      "processor": "A17 Bionic",
-      "ram": "6GB",
-      "storage": "512GB",
-      "batteryLife": "20 hours"
-    },
-    "stock": 15,
-    "discount": 5,
-    "colors": [
-      "gold",
-      "silver",
-      "black"
-    ],
-    "warranty": "1 year",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "user123",
-        "rating": 5,
-        "comment": "Amazing phone with fantastic features!",
-        "reviewDate": {
-          "$date": "2024-11-10T12:00:00Z"
-        }
-      }
-    ]
+  "stock": 20,
+  "discount": 15,
+  "colors": [
+    "red",
+    "gray"
+  ],
+  "warranty": "2 years",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
   },
-  {
-    "name": "Fitbit Versa 4",
-    "brand": "Fitbit",
-    "category": "smartwatch",
-    "price": 25000,
-    "shortDescription": "A versatile smartwatch for fitness and health tracking.",
-    "fullDescription": "Detailed description of the smartwatch, its performance, design, etc.",
-    "rating": 4.4,
-    "photo": "https://ibb.co.com/PspTmm1",
-    "images": [
-      "https://ibb.co.com/P5nLhPN",
-      "https://ibb.co.com/WfxtNyZ"
-    ],
-    "specifications": {
-      "processor": "Fitbit OS",
-      "ram": "1GB",
-      "storage": "4GB",
-      "batteryLife": "7 days"
-    },
-    "stock": 30,
-    "discount": 10,
-    "colors": [
-      "black",
-      "rose gold"
-    ],
-    "warranty": "1 year",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "user456",
-        "rating": 4,
-        "comment": "Great for tracking workouts and health metrics.",
-        "reviewDate": {
-          "$date": "2024-11-09T14:00:00Z"
-        }
-      }
-    ]
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
   },
-  {
-    "name": "Dell XPS 13",
-    "brand": "Dell",
-    "category": "laptop",
-    "price": 180000,
-    "shortDescription": "A premium laptop with top-notch performance.",
-    "fullDescription": "Detailed description of the laptop, its performance, design, etc.",
-    "rating": 4.6,
-    "photo": "https://ibb.co.com/x5104Nb",
-    "images": [
-      "https://ibb.co.com/brPX8HR",
-      "https://ibb.co.com/56JNBBg"
-    ],
-    "specifications": {
-      "processor": "Intel i7",
-      "ram": "16GB",
-      "storage": "1TB SSD",
-      "batteryLife": "12 hours"
-    },
-    "stock": 8,
-    "discount": 7,
-    "colors": [
-      "silver"
-    ],
-    "warranty": "1 year",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "user789",
-        "rating": 5,
-        "comment": "Excellent performance and beautiful design!",
-        "reviewDate": {
-          "$date": "2024-11-08T16:00:00Z"
-        }
+  "reviews": [
+    {
+      "userId": "someUserId",
+      "rating": 5,
+      "comment": "Great product, works perfectly!",
+      "reviewDate": {
+        "$date": "2024-11-10T12:00:00.000Z"
       }
-    ]
+    }
+  ]
+},
+{
+  "name": "iPhone 15 Pro Max",
+  "brand": "Apple",
+  "category": "smartphone",
+  "price": 150000,
+  "shortDescription": "A high-end smartphone with advanced features.",
+  "fullDescription": "Detailed description of the smartphone, its performance, design, etc.",
+  "rating": 4.8,
+  "photo": "https://i.ibb.co.com/nfVpv4D/i-Phone-15-Pro-Max-1.jpg",
+  "images": [
+    "https://i.ibb.co.com/2S3GpW3/i-Phone-15-Pro-Max-2.jpg",
+    "https://i.ibb.co.com/rvhDy1k/i-Phone-15-Pro-Max.jpg"
+  ],
+  "specifications": {
+    "processor": "A17 Bionic",
+    "ram": "6GB",
+    "storage": "512GB",
+    "batteryLife": "20 hours"
   },
-  {
-    "name": "Canon EOS R6",
-    "brand": "Canon",
-    "category": "camera",
-    "price": 220000,
-    "shortDescription": "A professional-grade camera for photography enthusiasts.",
-    "fullDescription": "Detailed description of the camera, its performance, design, etc.",
-    "rating": 4.7,
-    "photo": "https://ibb.co.com/ZHgdfHR",
-    "images": [
-      "https://ibb.co.com/LSRr8cM",
-      "https://ibb.co.com/9ycbtT4"
-    ],
-    "specifications": {
-      "sensor": "Full-frame CMOS",
-      "megapixels": "20.1 MP",
-      "videoResolution": "4K",
-      "batteryLife": "6 hours"
-    },
-    "stock": 12,
-    "discount": 10,
-    "colors": [
-      "black"
-    ],
-    "warranty": "2 years",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "user101",
-        "rating": 5,
-        "comment": "Amazing camera with great features!",
-        "reviewDate": {
-          "$date": "2024-11-07T18:00:00Z"
-        }
-      }
-    ]
+  "stock": 15,
+  "discount": 5,
+  "colors": [
+    "gold",
+    "yellow",
+    "red"
+  ],
+  "warranty": "1 year",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
   },
-  {
-    "name": "DJI Mavic Air 2",
-    "brand": "DJI",
-    "category": "drone",
-    "price": 120000,
-    "shortDescription": "An advanced drone with impressive flight capabilities.",
-    "fullDescription": "Detailed description of the drone, its performance, design, etc.",
-    "rating": 4.5,
-    "photo": "https://ibb.co.com/FmMCK9n",
-    "images": [
-      "https://ibb.co.com/CQ5yR5j",
-      "https://ibb.co.com/jrSbTS3"
-    ],
-    "specifications": {
-      "cameraResolution": "48 MP",
-      "flightTime": "34 minutes",
-      "maxSpeed": "68 km/h",
-      "batteryLife": "34 minutes"
-    },
-    "stock": 10,
-    "discount": 5,
-    "colors": [
-      "grey"
-    ],
-    "warranty": "1 year",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "user202",
-        "rating": 4,
-        "comment": "Great drone with excellent features!",
-        "reviewDate": {
-          "$date": "2024-11-06T20:00:00Z"
-        }
-      }
-    ]
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
   },
-  {
-    "name": "Sony WH-1000XM4",
-    "brand": "Sony",
-    "category": "headphones",
-    "price": 35000,
-    "shortDescription": "Noise-cancelling headphones with excellent sound quality.",
-    "fullDescription": "Detailed description of the headphones, its performance, design, etc.",
-    "rating": 4.8,
-    "photo": "https://ibb.co.com/CWk0wxD",
-    "images": [
-      "https://ibb.co.com/vq8Nhbn",
-      "https://ibb.co.com/n65BTdf"
-    ],
-    "specifications": {
-      "driverSize": "40mm",
-      "batteryLife": "30 hours",
-      "connectivity": "Bluetooth 5.0"
-    },
-    "stock": 25,
-    "discount": 12,
-    "colors": [
-      "black",
-      "silver"
-    ],
-    "warranty": "1 year",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "user303",
-        "rating": 5,
-        "comment": "Best noise-cancelling headphones I've ever used!",
-        "reviewDate": {
-          "$date": "2024-11-05T22:00:00Z"
-        }
+  "reviews": [
+    {
+      "userId": "user123",
+      "rating": 5,
+      "comment": "Amazing phone with fantastic features!",
+      "reviewDate": {
+        "$date": "2024-11-10T12:00:00.000Z"
       }
-    ]
+    }
+  ]
+},
+{
+  "name": "Fitbit Versa 4",
+  "brand": "Fitbit",
+  "category": "smartwatch",
+  "price": 25000,
+  "shortDescription": "A versatile smartwatch for fitness and health tracking.",
+  "fullDescription": "Detailed description of the smartwatch, its performance, design, etc.",
+  "rating": 4.4,
+  "photo": "https://i.ibb.co.com/PGz9dmC/smart-watch-2.jpg",
+  "images": [
+    "https://i.ibb.co.com/YNDBbpL/smart-watch-3.jpg",
+    "https://i.ibb.co.com/M20gKX2/smart-watch-4.jpg"
+  ],
+  "specifications": {
+    "processor": "Fitbit OS",
+    "ram": "1GB",
+    "storage": "4GB",
+    "batteryLife": "7 days"
   },
-  {
-    "name": "LG UltraGear 27GN950",
-    "brand": "LG",
-    "category": "monitor",
-    "price": 95000,
-    "shortDescription": "A high-performance gaming monitor with 4K resolution.",
-    "fullDescription": "Detailed description of the monitor, its performance, design, etc.",
-    "rating": 4.7,
-    "photo": "https://ibb.co.com/Nj824hZ",
-    "images": [
-      "https://ibb.co.com/ry1c7Pt",
-      "https://ibb.co.com/qNm9w41"
-    ],
-    "specifications": {
-      "screenSize": "27 inches",
-      "resolution": "3840 x 2160",
-      "refreshRate": "144Hz"
-    },
-    "stock": 18,
-    "discount": 8,
-    "colors": [
-      "black"
-    ],
-    "warranty": "3 years",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "user404",
-        "rating": 5,
-        "comment": "Superb monitor for gaming and productivity!",
-        "reviewDate": {
-          "$date": "2024-11-04T10:00:00Z"
-        }
-      }
-    ]
+  "stock": 30,
+  "discount": 10,
+  "colors": [
+    "red",
+    "blue"
+  ],
+  "warranty": "1 year",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
   },
-  {
-    "name": "Logitech MX Master 3",
-    "brand": "Logitech",
-    "category": "mouse",
-    "price": 10000,
-    "shortDescription": "An ergonomic mouse with advanced functionalities.",
-    "fullDescription": "Detailed description of the mouse, its performance, design, etc.",
-    "rating": 4.6,
-    "photo": "https://ibb.co.com/gM1rZ3j",
-    "images": [
-      "https://ibb.co.com/7Y3xSNy",
-      "https://ibb.co.com/rwFwCqD"
-    ],
-    "specifications": {
-      "sensor": "Laser",
-      "connectivity": "Bluetooth, USB receiver",
-      "batteryLife": "70 days"
-    },
-    "stock": 50,
-    "discount": 5,
-    "colors": [
-      "black",
-      "gray"
-    ],
-    "warranty": "1 year",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "user505",
-        "rating": 4,
-        "comment": "Highly ergonomic and great for productivity.",
-        "reviewDate": {
-          "$date": "2024-11-03T12:00:00Z"
-        }
-      }
-    ]
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
   },
-  {
-    "name": "Razer BlackWidow V3",
-    "brand": "Razer",
-    "category": "keyboard",
-    "price": 15000,
-    "shortDescription": "A mechanical keyboard with RGB lighting for gamers.",
-    "fullDescription": "Detailed description of the keyboard, its performance, design, etc.",
-    "rating": 4.5,
-    "photo": "https://ibb.co.com/wN4WNXs",
-    "images": [
-      "https://ibb.co.com/K9stNCs",
-      "https://ibb.co.com/Jq6kymZ"
-    ],
-    "specifications": {
-      "switchType": "Razer Green",
-      "connectivity": "Wired",
-      "backlight": "RGB"
-    },
-    "stock": 20,
-    "discount": 10,
-    "colors": [
-      "black"
-    ],
-    "warranty": "2 years",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "user606",
-        "rating": 4,
-        "comment": "Great keyboard for gaming, love the RGB lighting.",
-        "reviewDate": {
-          "$date": "2024-11-02T14:00:00Z"
-        }
+  "reviews": [
+    {
+      "userId": "user456",
+      "rating": 4,
+      "comment": "Great for tracking workouts and health metrics.",
+      "reviewDate": {
+        "$date": "2024-11-09T14:00:00.000Z"
       }
-    ]
+    }
+  ]
+},
+{
+  "name": "Dell XPS 13",
+  "brand": "Dell",
+  "category": "laptop",
+  "price": 180000,
+  "shortDescription": "A premium laptop with top-notch performance.",
+  "fullDescription": "Detailed description of the laptop, its performance, design, etc.",
+  "rating": 4.6,
+  "photo": "https://i.ibb.co.com/mz9wx3K/Dell-XPS-13-0.jpg",
+  "images": [
+    "https://i.ibb.co.com/jTjcggP/Dell-XPS-13-2.jpg",
+    "https://i.ibb.co.com/7GXK6gN/Dell-XPS-13-1.jpg"
+  ],
+  "specifications": {
+    "processor": "Intel i7",
+    "ram": "16GB",
+    "storage": "1TB SSD",
+    "batteryLife": "12 hours"
   },
-  {
-    "name": "Amazon Echo Dot (4th Gen)",
-    "brand": "Amazon",
-    "category": "speaker",
-    "price": 5000,
-    "shortDescription": "A compact smart speaker with Alexa.",
-    "fullDescription": "Detailed description of the smart speaker, its performance, design, etc.",
-    "rating": 4.3,
-    "photo": "https://ibb.co.com/5n78ftG",
-    "images": [
-      "https://ibb.co.com/JskddNN",
-      "https://ibb.co.com/FYNmJbX"
-    ],
-    "specifications": {
-      "audioOutput": "1.6-inch speaker",
-      "connectivity": "Wi-Fi, Bluetooth",
-      "voiceAssistant": "Alexa"
-    },
-    "stock": 40,
-    "discount": 15,
-    "colors": [
-      "black",
-      "white",
-      "blue"
-    ],
-    "warranty": "1 year",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "user707",
-        "rating": 4,
-        "comment": "Very handy smart speaker, great sound for its size.",
-        "reviewDate": {
-          "$date": "2024-11-01T16:00:00Z"
-        }
-      }
-    ]
+  "stock": 8,
+  "discount": 7,
+  "colors": [
+    "yellow"
+  ],
+  "warranty": "1 year",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
   },
-  {
-    "name": "iPhone 15 Pro Max",
-    "brand": "Apple",
-    "category": "smartphone",
-    "price": 150000,
-    "shortDescription": "A high-end smartphone with advanced features.",
-    "fullDescription": "Detailed description of the smartphone, its performance, design, etc.",
-    "rating": 4.8,
-    "photo": "https://ibb.co.com/hscdM4R",
-    "images": [
-      "https://ibb.co.com/Bf9vfKD",
-      "https://ibb.co.com/qgSD63V"
-    ],
-    "specifications": {
-      "processor": "A17 Bionic",
-      "ram": "6GB",
-      "storage": "512GB",
-      "batteryLife": "20 hours"
-    },
-    "stock": 15,
-    "discount": 5,
-    "colors": [
-      "gold",
-      "silver",
-      "black"
-    ],
-    "warranty": "1 year",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "user123",
-        "rating": 5,
-        "comment": "Amazing phone with fantastic features!",
-        "reviewDate": {
-          "$date": "2024-11-10T12:00:00Z"
-        }
-      }
-    ]
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
   },
-  {
-    "name": "Fitbit Versa 4",
-    "brand": "Fitbit",
-    "category": "smartwatch",
-    "price": 25000,
-    "shortDescription": "A versatile smartwatch for fitness and health tracking.",
-    "fullDescription": "Detailed description of the smartwatch, its performance, design, etc.",
-    "rating": 4.4,
-    "photo": "https://ibb.co.com/P5nLhPN",
-    "images": [
-      "https://ibb.co.com/rvFqDVc",
-      "https://ibb.co.com/Wthgqb0"
-    ],
-    "specifications": {
-      "processor": "Fitbit OS",
-      "ram": "1GB",
-      "storage": "4GB",
-      "batteryLife": "7 days"
-    },
-    "stock": 30,
-    "discount": 10,
-    "colors": [
-      "black",
-      "rose gold"
-    ],
-    "warranty": "1 year",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "user456",
-        "rating": 4,
-        "comment": "Great for tracking workouts and health metrics.",
-        "reviewDate": {
-          "$date": "2024-11-09T14:00:00Z"
-        }
+  "reviews": [
+    {
+      "userId": "user789",
+      "rating": 5,
+      "comment": "Excellent performance and beautiful design!",
+      "reviewDate": {
+        "$date": "2024-11-08T16:00:00.000Z"
       }
-    ]
+    }
+  ]
+},
+{
+  "name": "Canon EOS R6",
+  "brand": "Canon",
+  "category": "camera",
+  "price": 220000,
+  "shortDescription": "A professional-grade camera for photography enthusiasts.",
+  "fullDescription": "Detailed description of the camera, its performance, design, etc.",
+  "rating": 4.7,
+  "photo": "https://i.ibb.co.com/NWt9SjN/pexels-hikaique-243757.jpg",
+  "images": [
+    "https://i.ibb.co.com/WDznHDN/pexels-jibarofoto-1787220.jpg",
+    "https://i.ibb.co.com/hfBLxKP/pexels-jeshoots-com-147458-167832.jpg"
+  ],
+  "specifications": {
+    "sensor": "Full-frame CMOS",
+    "megapixels": "20.1 MP",
+    "videoResolution": "4K",
+    "batteryLife": "6 hours"
   },
-  {
-    "name": "Dell XPS 13",
-    "brand": "Dell",
-    "category": "laptop",
-    "price": 180000,
-    "shortDescription": "A premium laptop with top-notch performance.",
-    "fullDescription": "Detailed description of the laptop, its performance, design, etc.",
-    "rating": 4.6,
-    "photo": "https://ibb.co.com/Vm1ZPhn",
-    "images": [
-      "https://ibb.co.com/kgsy0dX",
-      "https://ibb.co.com/mqLzbRK"
-    ],
-    "specifications": {
-      "processor": "Intel i7",
-      "ram": "16GB",
-      "storage": "1TB SSD",
-      "batteryLife": "12 hours"
-    },
-    "stock": 8,
-    "discount": 7,
-    "colors": [
-      "silver"
-    ],
-    "warranty": "1 year",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "user789",
-        "rating": 5,
-        "comment": "Excellent performance and beautiful design!",
-        "reviewDate": {
-          "$date": "2024-11-08T16:00:00Z"
-        }
-      }
-    ]
+  "stock": 12,
+  "discount": 10,
+  "colors": [
+    "red"
+  ],
+  "warranty": "2 years",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
   },
-  {
-    "name": "Canon EOS R6",
-    "brand": "Canon",
-    "category": "camera",
-    "price": 220000,
-    "shortDescription": "A professional-grade camera for photography enthusiasts.",
-    "fullDescription": "Detailed description of the camera, its performance, design, etc.",
-    "rating": 4.7,
-    "photo": "https://ibb.co.com/93F497n",
-    "images": [
-      "https://ibb.co.com/Vpt9yNb",
-      "https://ibb.co.com/wsSBZK9"
-    ],
-    "specifications": {
-      "sensor": "Full-frame CMOS",
-      "megapixels": "20.1 MP",
-      "videoResolution": "4K",
-      "batteryLife": "6 hours"
-    },
-    "stock": 12,
-    "discount": 10,
-    "colors": [
-      "black"
-    ],
-    "warranty": "2 years",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "user101",
-        "rating": 5,
-        "comment": "Amazing camera with great features!",
-        "reviewDate": {
-          "$date": "2024-11-07T18:00:00Z"
-        }
-      }
-    ]
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
   },
-  {
-    "name": "DJI Mavic Air 2",
-    "brand": "DJI",
-    "category": "drone",
-    "price": 120000,
-    "shortDescription": "An advanced drone with impressive flight capabilities.",
-    "fullDescription": "Detailed description of the drone, its performance, design, etc.",
-    "rating": 4.5,
-    "photo": "https://ibb.co.com/ZL2nKdM",
-    "images": [
-      "https://ibb.co.com/smCxVs5",
-      "https://ibb.co.com/QfLnK2M"
-    ],
-    "specifications": {
-      "cameraResolution": "48 MP",
-      "flightTime": "34 minutes",
-      "maxSpeed": "68 km/h",
-      "batteryLife": "34 minutes"
-    },
-    "stock": 10,
-    "discount": 5,
-    "colors": [
-      "grey"
-    ],
-    "warranty": "1 year",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "user202",
-        "rating": 4,
-        "comment": "Great drone with excellent features!",
-        "reviewDate": {
-          "$date": "2024-11-06T20:00:00Z"
-        }
+  "reviews": [
+    {
+      "userId": "user101",
+      "rating": 5,
+      "comment": "Amazing camera with great features!",
+      "reviewDate": {
+        "$date": "2024-11-07T18:00:00.000Z"
       }
-    ]
+    }
+  ]
+},
+{
+  "name": "DJI Mavic Air 2",
+  "brand": "DJI",
+  "category": "drone",
+  "price": 120000,
+  "shortDescription": "An advanced drone with impressive flight capabilities.",
+  "fullDescription": "Detailed description of the drone, its performance, design, etc.",
+  "rating": 4.5,
+  "photo": "https://i.ibb.co.com/qmhm6QX/pexels-thelazyartist-1506991.jpg",
+  "images": [
+    "https://i.ibb.co.com/NyMtsMW/pexels-pok-rie-33563-724921.jpg",
+    "https://i.ibb.co.com/Y8SpG9x/pexels-pok-rie-33563-690360.jpg"
+  ],
+  "specifications": {
+    "cameraResolution": "48 MP",
+    "flightTime": "34 minutes",
+    "maxSpeed": "68 km/h",
+    "batteryLife": "34 minutes"
   },
-  {
-    "name": "Sony WH-1000XM4",
-    "brand": "Sony",
-    "category": "headphones",
-    "price": 35000,
-    "shortDescription": "Noise-cancelling headphones with excellent sound quality.",
-    "fullDescription": "Detailed description of the headphones, its performance, design, etc.",
-    "rating": 4.8,
-    "photo": "https://ibb.co.com/gW7CGQS",
-    "images": [
-      "https://ibb.co.com/Wfj7N8m",
-      "https://ibb.co.com/g3d7mXz"
-    ],
-    "specifications": {
-      "driverSize": "40mm",
-      "batteryLife": "30 hours",
-      "connectivity": "Bluetooth 5.0"
-    },
-    "stock": 25,
-    "discount": 12,
-    "colors": [
-      "black",
-      "silver"
-    ],
-    "warranty": "1 year",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "user303",
-        "rating": 5,
-        "comment": "Best noise-cancelling headphones I've ever used!",
-        "reviewDate": {
-          "$date": "2024-11-05T22:00:00Z"
-        }
-      }
-    ]
+  "stock": 10,
+  "discount": 5,
+  "colors": [
+    "grey"
+  ],
+  "warranty": "1 year",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
   },
-  {
-    "name": "LG UltraGear 27GN950",
-    "brand": "LG",
-    "category": "monitor",
-    "price": 95000,
-    "shortDescription": "A high-performance gaming monitor with 4K resolution.",
-    "fullDescription": "Detailed description of the monitor, its performance, design, etc.",
-    "rating": 4.7,
-    "photo": "https://ibb.co.com/x23XQg7",
-    "images": [
-      "https://ibb.co.com/RvK8D39",
-      "https://ibb.co.com/7knX44z"
-    ],
-    "specifications": {
-      "screenSize": "27 inches",
-      "resolution": "3840 x 2160",
-      "refreshRate": "144Hz"
-    },
-    "stock": 18,
-    "discount": 8,
-    "colors": [
-      "black"
-    ],
-    "warranty": "3 years",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "user404",
-        "rating": 5,
-        "comment": "Superb monitor for gaming and productivity!",
-        "reviewDate": {
-          "$date": "2024-11-04T10:00:00Z"
-        }
-      }
-    ]
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
   },
-  {
-    "name": "Logitech MX Master 3",
-    "brand": "Logitech",
-    "category": "mouse",
-    "price": 10000,
-    "shortDescription": "An ergonomic mouse with advanced functionalities.",
-    "fullDescription": "Detailed description of the mouse, its performance, design, etc.",
-    "rating": 4.6,
-    "photo": "https://ibb.co.com/YNLktCG",
-    "images": [
-      "https://ibb.co.com/GcWwzN2",
-      "https://ibb.co.com/djJ5txH"
-    ],
-    "specifications": {
-      "sensor": "Laser",
-      "connectivity": "Bluetooth, USB receiver",
-      "batteryLife": "70 days"
-    },
-    "stock": 50,
-    "discount": 5,
-    "colors": [
-      "black",
-      "gray"
-    ],
-    "warranty": "1 year",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "user505",
-        "rating": 4,
-        "comment": "Highly ergonomic and great for productivity.",
-        "reviewDate": {
-          "$date": "2024-11-03T12:00:00Z"
-        }
+  "reviews": [
+    {
+      "userId": "user202",
+      "rating": 4,
+      "comment": "Great drone with excellent features!",
+      "reviewDate": {
+        "$date": "2024-11-06T20:00:00.000Z"
       }
-    ]
+    }
+  ]
+},
+{
+  "name": "Sony WH-1000XM4",
+  "brand": "Sony",
+  "category": "headphones",
+  "price": 35000,
+  "shortDescription": "Noise-cancelling headphones with excellent sound quality.",
+  "fullDescription": "Detailed description of the headphones, its performance, design, etc.",
+  "rating": 4.8,
+  "photo": "https://i.ibb.co.com/kqJZP3P/pexels-karoldach-377711.jpg",
+  "images": [
+    "https://i.ibb.co.com/472fKDP/pexels-karoldach-933245.jpg",
+    "https://i.ibb.co.com/DMdwHjc/pexels-kaboompics-6320.jpg"
+  ],
+  "specifications": {
+    "driverSize": "40mm",
+    "batteryLife": "30 hours",
+    "connectivity": "Bluetooth 5.0"
   },
-  {
-    "name": "Razer BlackWidow V3",
-    "brand": "Razer",
-    "category": "keyboard",
-    "price": 15000,
-    "shortDescription": "A mechanical keyboard with RGB lighting for gamers.",
-    "fullDescription": "Detailed description of the keyboard, its performance, design, etc.",
-    "rating": 4.5,
-    "photo": "https://ibb.co.com/S0Sw7H2",
-    "images": [
-      "https://ibb.co.com/v1kDGg6",
-      "https://ibb.co.com/xFhdfNS"
-    ],
-    "specifications": {
-      "switchType": "Razer Green",
-      "connectivity": "Wired",
-      "backlight": "RGB"
-    },
-    "stock": 20,
-    "discount": 10,
-    "colors": [
-      "black"
-    ],
-    "warranty": "2 years",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "user606",
-        "rating": 4,
-        "comment": "Great keyboard for gaming, love the RGB lighting.",
-        "reviewDate": {
-          "$date": "2024-11-02T14:00:00Z"
-        }
-      }
-    ]
+  "stock": 25,
+  "discount": 12,
+  "colors": [
+    "red",
+    "yellow"
+  ],
+  "warranty": "1 year",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
   },
-  {
-    "name": "Amazon Echo Dot (4th Gen)",
-    "brand": "Amazon",
-    "category": "speaker",
-    "price": 5000,
-    "shortDescription": "A compact smart speaker with Alexa.",
-    "fullDescription": "Detailed description of the smart speaker, its performance, design, etc.",
-    "rating": 4.3,
-    "photo": "https://ibb.co.com/pZgMGhq",
-    "images": [
-      "https://ibb.co.com/NpVj56T",
-      "https://ibb.co.com/WpfTBD0"
-    ],
-    "specifications": {
-      "audioOutput": "1.6-inch speaker",
-      "connectivity": "Wi-Fi, Bluetooth",
-      "voiceAssistant": "Alexa"
-    },
-    "stock": 40,
-    "discount": 15,
-    "colors": [
-      "black",
-      "white",
-      "blue"
-    ],
-    "warranty": "1 year",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "user707",
-        "rating": 4,
-        "comment": "Very handy smart speaker, great sound for its size.",
-        "reviewDate": {
-          "$date": "2024-11-01T16:00:00Z"
-        }
-      }
-    ]
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
   },
-  {
-    "name": "Samsung Galaxy Tab S8",
-    "brand": "Samsung",
-    "category": "tablet",
-    "price": 60000,
-    "shortDescription": "A powerful tablet with an immersive display.",
-    "fullDescription": "Detailed description of the tablet, its performance, design, etc.",
-    "rating": 4.6,
-    "photo": "https://ibb.co.com/18199KF",
-    "images": [
-      "https://ibb.co.com/SBFB7Qx",
-      "https://ibb.co.com/w73p6t7"
-    ],
-    "specifications": {
-      "processor": "Snapdragon 888",
-      "ram": "8GB",
-      "storage": "256GB",
-      "batteryLife": "14 hours"
-    },
-    "stock": 22,
-    "discount": 10,
-    "colors": [
-      "black",
-      "silver"
-    ],
-    "warranty": "1 year",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "user808",
-        "rating": 5,
-        "comment": "Excellent tablet with a great display!",
-        "reviewDate": {
-          "$date": "2024-11-01T08:00:00Z"
-        }
+  "reviews": [
+    {
+      "userId": "user303",
+      "rating": 5,
+      "comment": "Best noise-cancelling headphones I've ever used!",
+      "reviewDate": {
+        "$date": "2024-11-05T22:00:00.000Z"
       }
-    ]
+    }
+  ]
+},
+{
+  "name": "LG UltraGear 27GN950",
+  "brand": "LG",
+  "category": "monitor",
+  "price": 95000,
+  "shortDescription": "A high-performance gaming monitor with 4K resolution.",
+  "fullDescription": "Detailed description of the monitor, its performance, design, etc.",
+  "rating": 4.7,
+  "photo": "https://i.ibb.co.com/tqYc5NC/pexels-xexusdesigner-777001.jpg",
+  "images": [
+    "https://i.ibb.co.com/VS7YKy2/pexels-thngocbich-1714340.jpg",
+    "https://i.ibb.co.com/f4Bvj2P/pexels-pngmariah-20453227.jpg"
+  ],
+  "specifications": {
+    "screenSize": "27 inches",
+    "resolution": "3840 x 2160",
+    "refreshRate": "144Hz"
   },
-  {
-    "name": "LG OLED55CXPUA",
-    "brand": "LG",
-    "category": "television",
-    "price": 250000,
-    "shortDescription": "A high-definition OLED smart TV with vibrant colors.",
-    "fullDescription": "Detailed description of the smart TV, its performance, design, etc.",
-    "rating": 4.9,
-    "photo": "https://ibb.co.com/b7B45FK",
-    "images": [
-      "https://ibb.co.com/WGcbsJR",
-      "https://ibb.co.com/MBwQxnp"
-    ],
-    "specifications": {
-      "screenSize": "55 inches",
-      "resolution": "3840 x 2160",
-      "refreshRate": "120Hz"
-    },
-    "stock": 12,
-    "discount": 10,
-    "colors": [
-      "black"
-    ],
-    "warranty": "2 years",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "user909",
-        "rating": 5,
-        "comment": "Incredible picture quality and features!",
-        "reviewDate": {
-          "$date": "2024-10-30T18:00:00Z"
-        }
-      }
-    ]
+  "stock": 18,
+  "discount": 8,
+  "colors": [
+    "red"
+  ],
+  "warranty": "3 years",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
   },
-  {
-    "name": "Kindle Paperwhite",
-    "brand": "Amazon",
-    "category": "e-reader",
-    "price": 15000,
-    "shortDescription": "A portable e-reader with a high-resolution display.",
-    "fullDescription": "Detailed description of the e-reader, its performance, design, etc.",
-    "rating": 4.5,
-    "photo": "https://ibb.co.com/ZSYthKZ",
-    "images": [
-      "https://ibb.co.com/nDgSgCq",
-      "https://ibb.co.com/w73p6t7"
-    ],
-    "specifications": {
-      "screenSize": "6 inches",
-      "resolution": "1448 x 1072",
-      "batteryLife": "6 weeks"
-    },
-    "stock": 50,
-    "discount": 5,
-    "colors": [
-      "black",
-      "white"
-    ],
-    "warranty": "1 year",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "user010",
-        "rating": 4,
-        "comment": "Great e-reader with excellent battery life.",
-        "reviewDate": {
-          "$date": "2024-10-28T20:00:00Z"
-        }
-      }
-    ]
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
   },
-  {
-    "name": "Oculus Quest 2",
-    "brand": "Oculus",
-    "category": "VR",
-    "price": 60000,
-    "shortDescription": "An advanced VR headset for immersive experiences.",
-    "fullDescription": "Detailed description of the VR headset, its performance, design, etc.",
-    "rating": 4.7,
-    "photo": "https://ibb.co.com/8bhq34N",
-    "images": [
-      "https://ibb.co.com/wgS1xVQ",
-      "https://ibb.co.com/sJY9hh3"
-    ],
-    "specifications": {
-      "resolution": "1832 x 1920",
-      "refreshRate": "90Hz",
-      "batteryLife": "2 hours"
-    },
-    "stock": 18,
-    "discount": 10,
-    "colors": [
-      "white"
-    ],
-    "warranty": "2 years",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "user111",
-        "rating": 5,
-        "comment": "Fantastic VR experience with amazing visuals!",
-        "reviewDate": {
-          "$date": "2024-10-26T22:00:00Z"
-        }
+  "reviews": [
+    {
+      "userId": "user404",
+      "rating": 5,
+      "comment": "Superb monitor for gaming and productivity!",
+      "reviewDate": {
+        "$date": "2024-11-04T10:00:00.000Z"
       }
-    ]
+    }
+  ]
+},
+{
+  "name": "Logitech MX Master 3",
+  "brand": "Logitech",
+  "category": "mouse",
+  "price": 10000,
+  "shortDescription": "An ergonomic mouse with advanced functionalities.",
+  "fullDescription": "Detailed description of the mouse, its performance, design, etc.",
+  "rating": 4.6,
+  "photo": "https://i.ibb.co.com/vjVj7f0/pexels-wildlittlethingsphoto-7151697.jpg",
+  "images": [
+    "https://i.ibb.co.com/PZprGNm/pexels-fox-58267-8576163.jpg",
+    "https://i.ibb.co.com/QbW7Jjm/pexels-czapp-arpad-3647289-17484878.jpg"
+  ],
+  "specifications": {
+    "sensor": "Laser",
+    "connectivity": "Bluetooth, USB receiver",
+    "batteryLife": "70 days"
   },
-  {
-    "name": "PlayStation 5",
-    "brand": "Sony",
-    "category": "gaming-console",
-    "price": 70000,
-    "shortDescription": "Next-gen gaming console with stunning graphics.",
-    "fullDescription": "Detailed description of the gaming console, its performance, design, etc.",
-    "rating": 4.9,
-    "photo": "https://ibb.co.com/gj4Z8CY",
-    "images": [
-      "https://ibb.co.com/VN9w0wf",
-      "https://ibb.co.com/hm1T5NY"
-    ],
-    "specifications": {
-      "processor": "Custom AMD",
-      "storage": "1TB SSD",
-      "resolution": "4K"
-    },
-    "stock": 20,
-    "discount": 5,
-    "colors": [
-      "white",
-      "black"
-    ],
-    "warranty": "1 year",
-    "createdAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "updatedAt": {
-      "$date": "2024-11-12T10:00:00Z"
-    },
-    "reviews": [
-      {
-        "userId": "user111",
-        "rating": 5,
-        "comment": "The best gaming experience I've ever had!",
-        "reviewDate": {
-          "$date": "2024-10-30T16:00:00Z"
-        }
+  "stock": 50,
+  "discount": 5,
+  "colors": [
+    "red",
+    "gray"
+  ],
+  "warranty": "1 year",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "userId": "user505",
+      "rating": 4,
+      "comment": "Highly ergonomic and great for productivity.",
+      "reviewDate": {
+        "$date": "2024-11-03T12:00:00.000Z"
       }
-    ]
-  }
-]
+    }
+  ]
+},
+{
+  "name": "Razer redWidow V3",
+  "brand": "Razer",
+  "category": "keyboard",
+  "price": 15000,
+  "shortDescription": "A mechanical keyboard with RGB lighting for gamers.",
+  "fullDescription": "Detailed description of the keyboard, its performance, design, etc.",
+  "rating": 4.5,
+  "photo": "https://i.ibb.co.com/BgQ5GQN/pexels-zeleboba-24181863.jpgs",
+  "images": [
+    "https://i.ibb.co.com/ypvsYd2/pexels-tanphuc-13728045.jpg",
+    "https://i.ibb.co.com/MR1z8q1/pexels-mintworkspace-19304049.jpg"
+  ],
+  "specifications": {
+    "switchType": "Razer Green",
+    "connectivity": "Wired",
+    "backlight": "RGB"
+  },
+  "stock": 20,
+  "discount": 10,
+  "colors": [
+    "red"
+  ],
+  "warranty": "2 years",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "userId": "user606",
+      "rating": 4,
+      "comment": "Great keyboard for gaming, love the RGB lighting.",
+      "reviewDate": {
+        "$date": "2024-11-02T14:00:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "name": "Amazon Echo Dot (4th Gen)",
+  "brand": "Amazon",
+  "category": "speaker",
+  "price": 5000,
+  "shortDescription": "A compact smart speaker with Alexa.",
+  "fullDescription": "Detailed description of the smart speaker, its performance, design, etc.",
+  "rating": 4.3,
+  "photo": "https://i.ibb.co.com/4YQT59K/pexels-prashant-purbey-295721470-13650608.jpg",
+  "images": [
+    "https://i.ibb.co.com/LzsCvWK/pexels-curayagjovan-4917455.jpg",
+    "https://i.ibb.co.com/XS822qC/pexels-zeleboba-19154544.jpg"
+  ],
+  "specifications": {
+    "audioOutput": "1.6-inch speaker",
+    "connectivity": "Wi-Fi, Bluetooth",
+    "voiceAssistant": "Alexa"
+  },
+  "stock": 40,
+  "discount": 15,
+  "colors": [
+    "red",
+    "gray",
+    "blue"
+  ],
+  "warranty": "1 year",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "userId": "user707",
+      "rating": 4,
+      "comment": "Very handy smart speaker, great sound for its size.",
+      "reviewDate": {
+        "$date": "2024-11-01T16:00:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "name": "iPhone 11 Pro",
+  "brand": "Apple",
+  "category": "smartphone",
+  "price": 150000,
+  "shortDescription": "A high-end smartphone with advanced features.",
+  "fullDescription": "Detailed description of the smartphone, its performance, design, etc.",
+  "rating": 4.8,
+  "photo": "https://i.ibb.co.com/3TnVTYX/pexels-essow-k-251295-1042143.jpg",
+  "images": [
+    "https://i.ibb.co.com/y0pkRZn/pexels-lastly-699122.jpg",
+    "https://i.ibb.co.com/8xCmkLt/pexels-freestocks-892757.jpg"
+  ],
+  "specifications": {
+    "processor": "A17 Bionic",
+    "ram": "6GB",
+    "storage": "512GB",
+    "batteryLife": "20 hours"
+  },
+  "stock": 15,
+  "discount": 5,
+  "colors": [
+    "gold",
+    "yellow",
+    "red"
+  ],
+  "warranty": "1 year",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "userId": "user123",
+      "rating": 5,
+      "comment": "Amazing phone with fantastic features!",
+      "reviewDate": {
+        "$date": "2024-11-10T12:00:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "name": "Kieslect Kr2 Calling Smart Watch",
+  "brand": "Kieslect",
+  "category": "smartwatch",
+  "price": 25000,
+  "shortDescription": "A versatile smartwatch for fitness and health tracking.",
+  "fullDescription": "Detailed description of the smartwatch, its performance, design, etc.",
+  "rating": 4.4,
+  "photo": "https://i.ibb.co.com/QdzdSKq/smart-watch-1.jpg",
+  "images": [
+    "https://i.ibb.co.com/HxMtJfT/smart-watch-5.jpg",
+    "https://i.ibb.co.com/HxMtJfT/smart-watch-6.jpg"
+  ],
+  "specifications": {
+    "processor": "Fitbit OS",
+    "ram": "1GB",
+    "storage": "4GB",
+    "batteryLife": "7 days"
+  },
+  "stock": 30,
+  "discount": 10,
+  "colors": [
+    "red",
+    "blue"
+  ],
+  "warranty": "1 year",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "userId": "user456",
+      "rating": 4,
+      "comment": "Great for tracking workouts and health metrics.",
+      "reviewDate": {
+        "$date": "2024-11-09T14:00:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "name": "Apple Macbook Pro Max",
+  "brand": "Apple",
+  "category": "laptop",
+  "price": 180000,
+  "shortDescription": "A premium laptop with top-notch performance.",
+  "fullDescription": "Detailed description of the laptop, its performance, design, etc.",
+  "rating": 4.6,
+  "photo": "https://i.ibb.co.com/tXGtWNj/pexels-burst-374074.jpg",
+  "images": [
+    "https://i.ibb.co.com/r6CyFQh/pexels-fr3nks-586958.jpg",
+    "https://i.ibb.co.com/WFNhB8c/pexels-thepaintedsquare-583842.jpg"
+  ],
+  "specifications": {
+    "processor": "M2 chip",
+    "ram": "16GB",
+    "storage": "1TB SSD",
+    "batteryLife": "12 hours"
+  },
+  "stock": 8,
+  "discount": 7,
+  "colors": [
+    "yellow",
+    "gray"
+  ],
+  "warranty": "1 year",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "userId": "user789",
+      "rating": 5,
+      "comment": "Excellent performance and beautiful design!",
+      "reviewDate": {
+        "$date": "2024-11-08T16:00:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "name": "Canon EOS R6",
+  "brand": "Canon",
+  "category": "camera",
+  "price": 220000,
+  "shortDescription": "A professional-grade camera for photography enthusiasts.",
+  "fullDescription": "Detailed description of the camera, its performance, design, etc.",
+  "rating": 4.7,
+  "photo": "https://i.ibb.co.com/vv7dxS1/pexels-pixabay-51383.jpg",
+  "images": [
+    "https://i.ibb.co.com/3YjrZz7/pexels-ajlobo-1205022.jpg",
+    "https://i.ibb.co.com/XsttLfJ/pexels-jibarofoto-1500590.jpg"
+  ],
+  "specifications": {
+    "sensor": "Full-frame CMOS",
+    "megapixels": "20.1 MP",
+    "videoResolution": "4K",
+    "batteryLife": "6 hours"
+  },
+  "stock": 12,
+  "discount": 10,
+  "colors": [
+    "red"
+  ],
+  "warranty": "2 years",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "userId": "user101",
+      "rating": 5,
+      "comment": "Amazing camera with great features!",
+      "reviewDate": {
+        "$date": "2024-11-07T18:00:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "name": "DJI Mavic Air 2",
+  "brand": "DJI",
+  "category": "drone",
+  "price": 120000,
+  "shortDescription": "An advanced drone with impressive flight capabilities.",
+  "fullDescription": "Detailed description of the drone, its performance, design, etc.",
+  "rating": 4.5,
+  "photo": "https://i.ibb.co.com/ZLS4McH/pexels-invisiblepower-343238.jpg",
+  "images": [
+    "https://i.ibb.co.com/2nZDPqk/pexels-inmortal-producciones-108299-336232.jpg",
+    "https://i.ibb.co.com/2dn9Rf6/pexels-joshsorenson-1034812.jpg"
+  ],
+  "specifications": {
+    "cameraResolution": "48 MP",
+    "flightTime": "34 minutes",
+    "maxSpeed": "68 km/h",
+    "batteryLife": "34 minutes"
+  },
+  "stock": 10,
+  "discount": 5,
+  "colors": [
+    "gray"
+  ],
+  "warranty": "1 year",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "userId": "user202",
+      "rating": 4,
+      "comment": "Great drone with excellent features!",
+      "reviewDate": {
+        "$date": "2024-11-06T20:00:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "name": "WH-1000XM5 Wireless",
+  "brand": "Sony",
+  "category": "headphones",
+  "price": 35000,
+  "shortDescription": "Noise-cancelling headphones with excellent sound quality.",
+  "fullDescription": "Detailed description of the headphones, its performance, design, etc.",
+  "rating": 4.8,
+  "photo": "https://i.ibb.co.com/ZXCQS3D/headset.jpg",
+  "images": [
+    "https://i.ibb.co.com/kMNJcd0/pexels-parag-deshmukh-180046-577769.jpg",
+    "https://i.ibb.co.com/ZfPhGPJ/pexels-sound-on-3394665.jpg"
+  ],
+  "specifications": {
+    "driverSize": "40mm",
+    "batteryLife": "30 hours",
+    "connectivity": "Bluetooth 5.0"
+  },
+  "stock": 25,
+  "discount": 12,
+  "colors": [
+    "red",
+    "yellow"
+  ],
+  "warranty": "1 year",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "userId": "user303",
+      "rating": 5,
+      "comment": "Best noise-cancelling headphones I've ever used!",
+      "reviewDate": {
+        "$date": "2024-11-05T22:00:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "name": "LG UltraGear 27GN950",
+  "brand": "LG",
+  "category": "monitor",
+  "price": 95000,
+  "shortDescription": "A high-performance gaming monitor with 4K resolution.",
+  "fullDescription": "Detailed description of the monitor, its performance, design, etc.",
+  "rating": 4.7,
+  "photo": "https://i.ibb.co.com/TcjrTB5/monitor-01.jpg",
+  "images": [
+    "https://i.ibb.co.com/LkyKZx8/monitor-03.jpg",
+    "https://i.ibb.co.com/CwWmF9H/pexels-karoldach-400678.jpg"
+  ],
+  "specifications": {
+    "screenSize": "27 inches",
+    "resolution": "3840 x 2160",
+    "refreshRate": "144Hz"
+  },
+  "stock": 18,
+  "discount": 8,
+  "colors": [
+    "red",
+    "green"
+  ],
+  "warranty": "3 years",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "userId": "user404",
+      "rating": 5,
+      "comment": "Superb monitor for gaming and productivity!",
+      "reviewDate": {
+        "$date": "2024-11-04T10:00:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "name": "Logitech MX Master 3",
+  "brand": "Logitech",
+  "category": "mouse",
+  "price": 10000,
+  "shortDescription": "An ergonomic mouse with advanced functionalities.",
+  "fullDescription": "Detailed description of the mouse, its performance, design, etc.",
+  "rating": 4.6,
+  "photo": "https://i.ibb.co.com/kDTcp38/pexels-alkzl-9161032.jpg",
+  "images": [
+    "https://i.ibb.co.com/KN48Qnj/pexels-soginoto-495844134-17821147.jpg",
+    "https://i.ibb.co.com/vz6Rjy6/pexels-marvin-henner-269807953-12795364.jpg"
+  ],
+  "specifications": {
+    "sensor": "Laser",
+    "connectivity": "Bluetooth, USB receiver",
+    "batteryLife": "70 days"
+  },
+  "stock": 50,
+  "discount": 5,
+  "colors": [
+    "red",
+    "gray"
+  ],
+  "warranty": "1 year",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "userId": "user505",
+      "rating": 4,
+      "comment": "Highly ergonomic and great for productivity.",
+      "reviewDate": {
+        "$date": "2024-11-03T12:00:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "name": "Razer redWidow V3",
+  "brand": "Razer",
+  "category": "keyboard",
+  "price": 15000,
+  "shortDescription": "A mechanical keyboard with RGB lighting for gamers.",
+  "fullDescription": "Detailed description of the keyboard, its performance, design, etc.",
+  "rating": 4.5,
+  "photo": "https://i.ibb.co.com/fYHpY5v/pexels-esmihel-18311093.jpg",
+  "images": [
+    "https://i.ibb.co.com/sCCvQKB/pexels-karoldach-841228.jpg",
+    "https://i.ibb.co.com/LN9ZD7k/pexels-nguyendesigner-17038229.jpg"
+  ],
+  "specifications": {
+    "switchType": "Razer Green",
+    "connectivity": "Wired",
+    "backlight": "RGB"
+  },
+  "stock": 20,
+  "discount": 10,
+  "colors": [
+    "red",
+    "green"
+  ],
+  "warranty": "2 years",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "userId": "user606",
+      "rating": 4,
+      "comment": "Great keyboard for gaming, love the RGB lighting.",
+      "reviewDate": {
+        "$date": "2024-11-02T14:00:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "name": "Amazon Echo Dot (4th Gen)",
+  "brand": "Amazon",
+  "category": "speaker",
+  "price": 5000,
+  "shortDescription": "A compact smart speaker with Alexa.",
+  "fullDescription": "Detailed description of the smart speaker, its performance, design, etc.",
+  "rating": 4.3,
+  "photo": "https://i.ibb.co.com/6b2TVXQ/pexels-akki-14017595.jpg",
+  "images": [
+    "https://i.ibb.co.com/2Pntx7Z/pexels-caleboquendo-7772558.jpg",
+    "https://i.ibb.co.com/LvYh5gV/pexels-zeleboba-1706694.jpg"
+  ],
+  "specifications": {
+    "audioOutput": "1.6-inch speaker",
+    "connectivity": "Wi-Fi, Bluetooth",
+    "voiceAssistant": "Alexa"
+  },
+  "stock": 40,
+  "discount": 15,
+  "colors": [
+    "red",
+    "gray",
+    "blue"
+  ],
+  "warranty": "1 year",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "userId": "user707",
+      "rating": 4,
+      "comment": "Very handy smart speaker, great sound for its size.",
+      "reviewDate": {
+        "$date": "2024-11-01T16:00:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "name": "Samsung Galaxy Tab S8",
+  "brand": "Samsung",
+  "category": "tablet",
+  "price": 60000,
+  "shortDescription": "A powerful tablet with an immersive display.",
+  "fullDescription": "Detailed description of the tablet, its performance, design, etc.",
+  "rating": 4.6,
+  "photo": "https://i.ibb.co.com/D5h77k0/pexels-rpnickson-3082341.jpg",
+  "images": [
+    "https://i.ibb.co.com/m4f4FvB/pexels-pixabay-221185.jpg",
+    "https://i.ibb.co.com/3WJWC5q/pexels-joshsorenson-1334597.jpg"
+  ],
+  "specifications": {
+    "processor": "Snapdragon 888",
+    "ram": "8GB",
+    "storage": "256GB",
+    "batteryLife": "14 hours"
+  },
+  "stock": 22,
+  "discount": 10,
+  "colors": [
+    "red",
+    "yellow"
+  ],
+  "warranty": "1 year",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "userId": "user808",
+      "rating": 5,
+      "comment": "Excellent tablet with a great display!",
+      "reviewDate": {
+        "$date": "2024-11-01T08:00:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "name": "LG OLED55CXPUA",
+  "brand": "LG",
+  "category": "television",
+  "price": 250000,
+  "shortDescription": "A high-definition OLED smart TV with vibrant colors.",
+  "fullDescription": "Detailed description of the smart TV, its performance, design, etc.",
+  "rating": 4.9,
+  "photo": "https://i.ibb.co.com/9GTxHhr/tv-3.jpg",
+  "images": [
+    "https://i.ibb.co.com/S5KhJCZ/tv-2.jpg",
+    "https://i.ibb.co.com/qJqV3B9/tv-1.jpg"
+  ],
+  "specifications": {
+    "screenSize": "55 inches",
+    "resolution": "3840 x 2160",
+    "refreshRate": "120Hz"
+  },
+  "stock": 12,
+  "discount": 10,
+  "colors": [
+    "red"
+  ],
+  "warranty": "2 years",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "userId": "user909",
+      "rating": 5,
+      "comment": "Incredible picture quality and features!",
+      "reviewDate": {
+        "$date": "2024-10-30T18:00:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "name": "Kindle Papergray",
+  "brand": "Amazon",
+  "category": "e-reader",
+  "price": 15000,
+  "shortDescription": "A portable e-reader with a high-resolution display.",
+  "fullDescription": "Detailed description of the e-reader, its performance, design, etc.",
+  "rating": 4.5,
+  "photo": "https://i.ibb.co.com/gdPHDwn/pexels-faith-stocksey-1369563-2647376.jpg",
+  "images": [
+    "https://i.ibb.co.com/Q6bGbd7/pexels-adrienne-andersen-1174503-2309394.jpg",
+    "https://i.ibb.co.com/tzkYCRz/pexels-coffee-bean-142635-430546.jpg"
+  ],
+  "specifications": {
+    "screenSize": "6 inches",
+    "resolution": "1448 x 1072",
+    "batteryLife": "6 weeks"
+  },
+  "stock": 50,
+  "discount": 5,
+  "colors": [
+    "red",
+    "gray"
+  ],
+  "warranty": "1 year",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "userId": "user010",
+      "rating": 4,
+      "comment": "Great e-reader with excellent battery life.",
+      "reviewDate": {
+        "$date": "2024-10-28T20:00:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "name": "Oculus Quest 2",
+  "brand": "Oculus",
+  "category": "VR",
+  "price": 60000,
+  "shortDescription": "An advanced VR headset for immersive experiences.",
+  "fullDescription": "Detailed description of the VR headset, its performance, design, etc.",
+  "rating": 4.7,
+  "photo": "https://i.ibb.co.com/F35tj2Y/vr-3.jpg",
+  "images": [
+    "https://i.ibb.co.com/jZXkdd4/vr-1.jpg",
+    "https://i.ibb.co.com/vkD42Pk/vr-2.jpg"
+  ],
+  "specifications": {
+    "resolution": "1832 x 1920",
+    "refreshRate": "90Hz",
+    "batteryLife": "2 hours"
+  },
+  "stock": 18,
+  "discount": 10,
+  "colors": [
+    "gray"
+  ],
+  "warranty": "2 years",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "userId": "user111",
+      "rating": 5,
+      "comment": "Fantastic VR experience with amazing visuals!",
+      "reviewDate": {
+        "$date": "2024-10-26T22:00:00.000Z"
+      }
+    }
+  ]
+},
+{
+  "name": "PlayStation 5",
+  "brand": "Sony",
+  "category": "gaming-console",
+  "price": 70000,
+  "shortDescription": "Next-gen gaming console with stunning graphics.",
+  "fullDescription": "Detailed description of the gaming console, its performance, design, etc.",
+  "rating": 4.9,
+  "photo": "https://i.ibb.co.com/tmLp65R/pexels-fox-58267-2106216.jpg",
+  "images": [
+    "https://i.ibb.co.com/M8HC6G0/pexels-garrettmorrow-3593986.jpg",
+    "https://i.ibb.co.com/ns2QZTP/pexels-a-darmel-7862248.jpg"
+  ],
+  "specifications": {
+    "processor": "Custom AMD",
+    "storage": "1TB SSD",
+    "resolution": "4K"
+  },
+  "stock": 20,
+  "discount": 5,
+  "colors": [
+    "gray",
+    "red"
+  ],
+  "warranty": "1 year",
+  "createdAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-12T10:00:00.000Z"
+  },
+  "reviews": [
+    {
+      "userId": "user111",
+      "rating": 5,
+      "comment": "The best gaming experience I've ever had!",
+      "reviewDate": {
+        "$date": "2024-10-30T16:00:00.000Z"
+      }
+    }
+  ]
+}]

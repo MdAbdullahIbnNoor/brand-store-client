@@ -28,18 +28,18 @@ const Navbar = () => {
     }
 
     return (
-        <nav x-data="{ isOpen: false }" className="bg-violet-800 shadow w-full">
+        <nav x-data="{ isOpen: false }" className="bg-secondary shadow w-full">
             <div className="container px-4 py-2 mx-auto relative">
                 <div className="lg:flex lg:items-center lg:justify-between">
                     <div className="flex items-center justify-between  2xl:gap-52">
                         <a href="/">
-                            <img className="w-24" src={logo} alt="" />
+                            <img className="w-36" src={logo} alt="" />
                         </a>
                         {/*  */}
 
                         {/* Mobile menu button */}
                         <div className="flex lg:hidden">
-                            <button onClick={toggleMenu} type="button" className="text-gray-500 hover:text-green-500 focus:outline-none focus:text-green-500" aria-label="toggle menu">
+                            <button onClick={toggleMenu} type="button" className="text-gray-500 hover:text-amber-500 focus:outline-none focus:text-amber-500" aria-label="toggle menu">
                                 {!isOpen ? (
                                     <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M4 8h16M4 16h16" />
@@ -59,7 +59,7 @@ const Navbar = () => {
                             <NavLink
                                 exact
                                 to="/"
-                                className={`px-3 py-2 mx-3 mt-2 rounded-md lg:mt-0 font-semibold text-sm ${isTabActive("/") ? "text-white bg-[#0ABF68]" : "text-green-500"}`}
+                                className={`px-3 py-2 mx-3 mt-2 rounded-md lg:mt-0 font-semibold text-sm ${isTabActive("/") ? "text-darkPurple bg-primary" : "text-amber-300"}`}
                             >
                                 Home
                             </NavLink>
@@ -68,7 +68,7 @@ const Navbar = () => {
                                 !user ? <NavLink
                                 exact
                                 to="/login"
-                                className={`px-3 py-2 mx-3 mt-2 rounded-md lg:mt-0 font-semibold text-sm ${isTabActive("/login") ? "text-white bg-[#0ABF68]" : "text-green-500"}`}
+                                className={`px-3 py-2 mx-3 mt-2 rounded-md lg:mt-0 font-semibold text-sm ${isTabActive("/login") ? "text-darkPurple bg-primary" : "text-amber-300"}`}
                             >
                                 LogIn
                             </NavLink> : <></>
@@ -77,7 +77,7 @@ const Navbar = () => {
                             {/* <NavLink
                                 exact
                                 to="/signup"
-                                className={`px-3 py-2 mx-3 mt-2 rounded-md lg:mt-0 font-semibold text-sm ${isTabActive("/signup") ? "text-white bg-[#0ABF68]" : "text-green-500"}`}
+                                className={`px-3 py-2 mx-3 mt-2 rounded-md lg:mt-0 font-semibold text-sm ${isTabActive("/signup") ? "text-darkPurple bg-primary" : "text-amber-300"}`}
                             >
                                 SignUp
                             </NavLink> */}
@@ -86,7 +86,7 @@ const Navbar = () => {
                                 user ? <NavLink
                                 exact
                                 to="/addProduct"
-                                className={`px-3 py-2 mx-3 mt-2 rounded-md lg:mt-0 font-semibold text-sm ${isTabActive("/addProduct") ? "text-white bg-[#0ABF68]" : "text-green-500"}`}
+                                className={`px-3 py-2 mx-3 mt-2 rounded-md lg:mt-0 font-semibold text-sm ${isTabActive("/addProduct") ? "text-darkPurple bg-primary" : "text-amber-300"}`}
                             >
                                 Add Product
                             </NavLink> : <></>
@@ -95,10 +95,11 @@ const Navbar = () => {
                             {
                                 user ? <NavLink
                                 exact
-                                to={`/myCart`}
-                                className={`px-3 py-2 mx-3 mt-2 lg:mt-0 font-semibold ${isTabActive("/brandDetails") ? "text-white bg-[#0ABF68]" : "text-green-500"}`}
+                                to="/myCart"
+                                className={`px-3 py-2 mx-3 mt-2 lg:mt-0 font-semibold ${isTabActive("/brandDetails") ? "text-darkPurple bg-primary" : "text-amber-300"}`}
                             >
-                                <img src={cart} alt="Cart Icon" className="w-10 py-1 " />
+                                {/* <img src={cart} alt="Cart Icon" className="w-10 py-1 " /> */}
+                                Cart
                             </NavLink> : <></>
                             }
                         </div>
@@ -111,11 +112,11 @@ const Navbar = () => {
                                     </div>
                                 }
 
-                                <h3 className="mx-2 text-green-500 font-bold text-lg">{user?.displayName}</h3>
+                                <h3 className="mx-2 text-amber-500 font-bold text-lg">{user?.displayName}</h3>
                             </button>
 
                             {
-                                user && <button onClick={() => handleSignOut()} className="btn btn-accent btn-outline h-10 hidden mx-4 text-green-500 lg:block  hover:bg-green-500 focus:outline-none" aria-label="show notifications">
+                                user && <button onClick={() => handleSignOut()} className="btn btn-accent btn-outline h-10 hidden mx-4 text-amber-500 lg:block  hover:bg-amber-500 focus:outline-none" aria-label="show notifications">
                                     Logout
                                 </button>
                             }
